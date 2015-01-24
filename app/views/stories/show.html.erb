@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Heading:</strong>
+  <%= @story.heading %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @story.source %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @story.body %>
+</p>
+
+<p>
+  <strong>Submission date:</strong>
+  <%= @story.submission_date %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @story.genre %>
+</p>
+
+<%= link_to 'Edit', edit_story_path(@story) %> |
+<%= link_to 'Back', stories_path %>
